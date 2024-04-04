@@ -7,7 +7,7 @@ function Intro() {
                 beginnings and thus i do my work to the best.I also work adobe illustrator and adobe
                 photoshop.</p>
             <p>See my projects at <a href="https://github.com/Nexus-coder"
-                target="_blank">my Github</a>.</p>
+                target="_blank">my github</a>.</p>
         </section>
     )
 }

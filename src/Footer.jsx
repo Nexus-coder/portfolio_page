@@ -22,7 +22,7 @@ function Footer() {
                     </a>
                 </li>
             </ul>
-            <p><small>&copy; 2023 Andrew Kimani. All rights reserved.</small></p>
+            <p><small>&copy; 2024 Andrew Kimani. All rights reserved.</small></p>
         </footer>
     )
 }

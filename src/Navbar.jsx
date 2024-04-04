@@ -11,7 +11,7 @@ function Navbar(){
             <li><a href="">About</a></li>
             <li><a href="">Contact</a></li>
             <li>
-                <a href="www.linkedin.com/in/andrew-kimani-89a022276" target="_blank">
+                <a href="https://www.linkedin.com/in/andrew-kimani-89a022276" target="_blank">
                     <span class="fab fa-linkedin" aria-hidden="true"></span>
                     <span class="sr-only">LinkedIn</span>
                 </a>

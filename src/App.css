@@ -212,6 +212,7 @@ nav [class*="fa-"]:hover {
   background-color: var(--black);
   font-size: 1rem;
   line-height: 1.5;
+  text-align: left;
 }
 
 #projects ul {
