@@ -243,6 +243,9 @@ nav [class*="fa-"]:hover {
 }
 
 #projects img {
+  height: 300px;
+  width: 600px;
+  object-fit: cover;
   margin: 2rem 0 4rem 0;
   padding: 1rem;
   border-left: 1px solid var(--aqua);
