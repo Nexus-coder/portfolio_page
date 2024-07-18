@@ -19,7 +19,7 @@ function Project() {
                             <li>SVG</li>
                         </ul>
                     </div>
-                    <img className="project-image" src="/imdb-min.png"
+                    <img className="project-image" src="/imdb-min-2.webp"
                         alt="Screenshot Imdb" />
                 </article>
             </section>
