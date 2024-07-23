@@ -1,6 +1,8 @@
-function Project() {
+import { forwardRef } from "react";
+
+const  Project = forwardRef((props,projectRef) => {
     return (
-        <div className="section-blue">
+        <div className="section-blue" ref={projectRef}>
             <section id="projects">
                 <h2>Projects I&apos;m proud of</h2>
                 <article>
@@ -25,6 +27,8 @@ function Project() {
             </section>
         </div>
     )
-}
+} ) 
+
+Project.displayName = 'Project'
 
 export default Project;
