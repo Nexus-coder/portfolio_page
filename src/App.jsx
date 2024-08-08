@@ -5,6 +5,7 @@ import Footer from './Footer'
 import Project from './Project'
 import Contact from './Contact'
 import { useRef } from 'react'
+import { Analytics } from "@vercel/analytics/react"
 function App() {
 
   const contactRef = useRef(null)
@@ -20,6 +21,7 @@ function App() {
   }
   return (
     <>
+      <Analytics />
       <Navbar toContact={toContact} toProject={toProject} />
 
       <Intro />
@@ -33,7 +35,7 @@ function App() {
       <Contact ref={contactRef} />
 
       <div className="gradient"></div>
-      
+
       <Footer />
     </>
   )
